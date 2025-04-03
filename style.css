@@ -1,0 +1,229 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    /* background-color: pink !important; */
+    color: #fff;  
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    height: 90%;
+
+}
+
+header::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/data.jpg);
+    opacity: 0.5;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+
+
+
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* About Me */
+.about {
+    padding: 40px 0;
+    background-color: beige;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Contact */
+.contact {
+    background-color: beige;
+    padding: 40px 0;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Resume */
+.resume {
+    padding: 40px 0;
+    background-color: beige;
+    text-align: center;
+}
+
+.resume .btn {
+    padding: 10px 20px;
+    background-color: #ff4c39;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.resume .btn:hover {
+    background-color: #ff4c39;
+}
+
+/* Projects */
+.projects {
+    padding: 40px 0;
+    background-color: beige;
+}
+
+.project-card {
+    background-color: beige;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.project-card .btn {
+    padding: 10px 20px;
+    background-color: #ff4c39;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.project-card .btn:hover {
+    background-color: #ff4c39;
+}
+
+/* Skills */
+.skills {
+    padding: 40px 0;
+    background-color: beige;
+}
+
+.skills ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+/* Hobbies */
+.hobbies {
+    background-color: beige;
+    padding: 40px 0;
+}
+
+/* Call to Action */
+.cta {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #DBDBDB;
+    color: #fff;
+}
+
+.cta .btn {
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta .btn:hover {
+    background-color: #ff4c39;
+}
+
+/* Footer */
+footer {
+    background-color: #DBDBDB;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* General icon styling */
+i {
+    font-size: 36px;         /* Adjust the size of the icons */
+    margin: 10px;            /* Add some spacing between the icons */
+    transition: color 0.3s, transform 0.3s; /* Smooth transitions for hover effects */
+}
+
+/* Color each icon differently */
+.fa-house {
+    color: #4CAF50;  /* Green for Home */
+}
+
+.fa-linkedin {
+    color: #0077b5;  /* LinkedIn Blue */
+}
+
+.fa-envelope {
+    color: #FF6347;  /* Tomato Red for Envelope */
+}
+
+.fa-whatsapp {
+    color: #25D366;  /* WhatsApp Green */
+}
+
+.fa-telegram {
+    color: #0088cc;  /* Telegram Blue */
+}
+
+.fa-square-instagram {
+    color: #E1306C;  /* Instagram Pink */
+}
+
+.fa-facebook {
+    color: #1877F2;  /* Facebook Blue */
+}
+
+/* Hover effect */
+i:hover {
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+    color: #333;  /* Darker color on hover */
+}
+
+
